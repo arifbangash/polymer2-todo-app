@@ -1,0 +1,22 @@
+{
+  "name": "todo-app",
+  "authors": [
+    "Arif Bangash"
+  ],
+  "description": "A simple todo list with Polymer 2.0",
+  "main": "todo-app.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0",
+    "paper-checkbox": "PolymerElements/paper-checkbox#^2.0.4",
+    "paper-button": "PolymerElements/paper-button#^2.1.0",
+    "paper-input": "PolymerElements/paper-input#^2.2.2"
+  },
+  "devDependencies": {
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
+    "web-component-tester": "Polymer/web-component-tester#^6.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
+  },
+  "resolutions": {
+    "polymer": "^2.0.0"
+  }
+}
