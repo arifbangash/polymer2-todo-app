@@ -27,14 +27,9 @@
       >
       <template>
         <div class="task">
-          
           <paper-checkbox checked="{{task.completed}}"></paper-checkbox>
-          
           <paper-input label="Task name" no-label-float value="{{task.name}}"></paper-input>
-          
-          
         </div>
-        
       </template>
     </dom-repeat>
     <h3>Completed:</h3>
@@ -56,7 +51,7 @@
         
       </template>
     </dom-repeat>
-    <paper-button on-click="addTodo">Add todo</paper-button> 
+    <paper-button on-click="addTodo" raised>Add todo</paper-button> 
   </template>
 
   <script>
